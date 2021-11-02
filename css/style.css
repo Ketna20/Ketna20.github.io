@@ -1,0 +1,50 @@
+/* import fonts from fonts.css */
+@import url(./fonts.css);
+
+/* css variables */
+@import url(./partials/_variables.css);
+
+/* Logo Font Family: Pacifico */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/* start navigation */
+.header-area .main-menu .navbar .navbar-brand {
+  padding: 0 2rem 0 5rem;
+}
+
+.header-area .main-menu .navbar {
+  padding: 1rem 2rem;
+}
+
+.header-area .main-menu .nav-item .nav-link {
+  font: normal 400 15px/2px var(--slabo);
+  text-transform: uppercase;
+  padding: 1.7rem;
+  color: var(--title-color);
+}
+
+.header-area .main-menu .navbar-nav .active a {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header-area .main-menu .navbar-nav a:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+}
+
+.logo-style {
+  font-family: 'Pacifico', cursive;
+  color:#854fee;
+  font-size: x-large;
+  font-weight: 500;
+  border-radius: 5mm;
+  padding: 4px;
+}
+
+/* end navigation */
