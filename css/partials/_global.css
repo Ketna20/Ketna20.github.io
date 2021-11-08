@@ -2,6 +2,10 @@
     font: normal bold 50px/ 72px var(--slabo);
 }
 
+.text-uppercase {
+  text-transform: uppercase;
+}
+
 .button {
   padding: 0.5rem 2.2rem;
   font: normal 500 16px/ 20px var(--slabo);
@@ -10,7 +14,7 @@
   border-radius: 4px;
 }
 
-.button.primary-button {
+.button .primary-button {
   background: var(--gradient-color);
   background-clip: padding-box;
   color: whitesmoke;
