@@ -1,5 +1,5 @@
 .title-text {
-    font: normal bold 50px/ 72px var(--slabo);
+    font: normal bold 50px/ 60px var(--slabo);
 }
 
 .text-uppercase {
@@ -15,7 +15,8 @@
 }
 
 .button .primary-button {
-  background: var(--gradient-color);
+  /* background: var(--gradient-color); */
+  background: var(--contrast-color);
   background-clip: padding-box;
   color: whitesmoke;
   transition: background.6s ease;
@@ -23,9 +24,9 @@
 }
 
 .button.primary-button:hover {
-  background: whitesmoke;
+  background: var(--contrast-color);
   background-clip: padding-box;
-  color: black;
+  color: wheat;
 }
 
 .button.primary-button:after, .button.secondary-button:after {
