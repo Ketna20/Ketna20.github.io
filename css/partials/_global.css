@@ -1,9 +1,20 @@
 .title-text {
-    font: normal bold 50px/ 60px var(--slabo);
+    font: normal bold 40px/ 60px var(--slabo);
+    color: white;
+}
+
+.second-title {
+  color: white;
+  font-family: var(--slabo);
+  margin-left: 50px;
 }
 
 .text-uppercase {
   text-transform: uppercase;
+}
+
+h5 {
+  font-size: medium;
 }
 
 .button {
@@ -14,17 +25,35 @@
   border-radius: 4px;
 }
 
+ .row-btn {
+    margin-left: 150px;
+    margin-top: 25px;
+
+ } 
+ .btn-started{
+  border: 1px solid var(--contrast-color);
+  border-radius: 30px;
+  color: white; 
+ }
+
+ .btn-started:hover {
+   background-color: var(--contrast-color);
+   color: black;
+   
+ }
+
 .button .primary-button {
   /* background: var(--gradient-color); */
-  background: var(--contrast-color);
-  background-clip: padding-box;
+  border: 1px solid black;
+  /* background-clip: padding-box; */
   color: whitesmoke;
+  background-color: var(--contrast-color);
   transition: background.6s ease;
-  box-shadow: var(--box-shadow);
+  /* box-shadow: var(--box-shadow); */
 }
 
 .button.primary-button:hover {
-  background: var(--contrast-color);
+  /* background: var(--contrast-color); */
   background-clip: padding-box;
   color: wheat;
 }
