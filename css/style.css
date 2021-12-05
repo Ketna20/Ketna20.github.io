@@ -322,7 +322,7 @@ footer.footer-area{
   background: url(../images/footer-bg.png) no-repeat;
 }
 
-footer.footer-area .social h5{
+/* footer.footer-area .social h5{
   font: normal 300 18px/ 20px var(--roboto);
 }
 
@@ -334,6 +334,9 @@ footer.footer-area .social a > i{
 
 footer.footer-area .social a:hover > i{
   color: var(--primary-color);
-}
+} */
 
+.social {
+  font-size: 50px;
+}
 /* End Footer */ 
