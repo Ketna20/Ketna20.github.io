@@ -23,7 +23,7 @@
 .header-area .main-menu .navbar {
   padding: 1rem 2rem;
   /* background-color: #854fee; */
-  background: var(--primary-color2);
+  background: #854fee;
   height: 100px;
 }
 
@@ -31,22 +31,18 @@
   font: normal 400 15px/2px var(--slabo);
   text-transform: uppercase;
   padding: 1.7rem;
-  color: var(--title-color);
+  color: #FFF;
 }
 
 .header-area .main-menu .navbar-nav .active a {
-  /* background: var(--gradient-color); */
-  /* background: var(--hover-color); */
-  background: var(--contrast-color);
+  background: aqua;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
 .header-area .main-menu .navbar-nav a:hover {
-  /* background: var(--gradient-color); */
-  /* background: var(--hover-color); */
-  background: var(--contrast-color);
+  background: aqua;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
