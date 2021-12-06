@@ -108,13 +108,13 @@
 }
 
 .btn-started{
-  border: 1px solid var(--contrast-color);
+  border: 1px solid aqua;
   border-radius: 30px;
   color: white; 
  }
 
  .btn-started:hover {
-   background-color: var(--contrast-color);
+   background-color: aqua;
    color: black;
    
  }
