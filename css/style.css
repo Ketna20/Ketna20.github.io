@@ -22,7 +22,7 @@
 
 .header-area .main-menu .navbar {
   padding: 1rem 2rem;
-  /* background-color: #854fee; */
+  background-color: #854fee;
   background: #854fee;
   height: 100px;
 }
@@ -71,7 +71,6 @@
 .site-main .site-banner {
   height: 500px;
   background-color: #854fee;
-  
 }
 
 .site-main .site-banner .site-title {
@@ -108,6 +107,17 @@
   width: 90rem;
 }
 
+.btn-started{
+  border: 1px solid var(--contrast-color);
+  border-radius: 30px;
+  color: white; 
+ }
+
+ .btn-started:hover {
+   background-color: var(--contrast-color);
+   color: black;
+   
+ }
 
 /* end banner area */
 
